@@ -1,9 +1,14 @@
 import React from 'react';
+import {
+  Mailbox,
+  Hamburger
+} from './components';
 
 const Home = () => {
   return (
     <div>
-      Home
+      <Hamburger />
+      <Mailbox />
     </div>
   )
 }
