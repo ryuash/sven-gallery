@@ -1,10 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {
-  Mailbox,
-  Hamburger,
-  ShieldPart,
-  Checkmark
-} from './components';
+import { MainSvg } from './components';
 import {
   BaseContainer,
   SvgContainer,
@@ -18,7 +13,7 @@ const Home = () => {
         Code here
       </CodeContainer>
       <SvgContainer>
-        SVG HERE
+        <MainSvg />
       </SvgContainer>
     </BaseContainer>
   )
