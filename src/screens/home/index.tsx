@@ -7,14 +7,6 @@ import {
 } from './components';
 
 const Home = () => {
-  const [toggle, setToggle] = useState(false);
-
-  useEffect(() => {
-    setImmediate(() => {
-      setToggle(true);
-    });
-  }, []);
-
   return (
     <div>
       {/* <Hamburger />
@@ -34,9 +26,7 @@ const Home = () => {
           d="M 143, 333 C 254.911 261.823 285 73.61 285 73.61 L 143 1 v 332 z"
           color="#8B5CF6"
         />
-        <Checkmark
-          toggle={toggle}
-        />
+        <Checkmark />
       </svg>
     </div>
   )
