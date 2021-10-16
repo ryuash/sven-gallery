@@ -6,7 +6,6 @@ export const BaseContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  background: pink;
 `;
 
 export const CodeContainer = styled.div`
@@ -14,6 +13,8 @@ export const CodeContainer = styled.div`
 `;
 
 export const SvgContainer = styled.div`
-  background: skyblue;
   grid-column: auto / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;

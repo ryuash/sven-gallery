@@ -10,8 +10,10 @@ const MainSvg = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="svg5"
-      width="500"
-      height="500"
+      // width="500"
+      // height="500"
+      width="75%"
+      height="auto"
       version="1.1"
       viewBox="0 0 132.292 132.292"
     >
