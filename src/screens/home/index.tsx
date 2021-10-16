@@ -5,13 +5,24 @@ import {
   ShieldPart,
   Checkmark
 } from './components';
+import {
+  BaseContainer,
+  SvgContainer,
+  CodeContainer
+} from './styles';
 
 const Home = () => {
   return (
-    <div>
+    <BaseContainer>
+      <CodeContainer>
+        Code here
+      </CodeContainer>
+      <SvgContainer>
+        SVG HERE
+      </SvgContainer>
       {/* <Hamburger />
       <Mailbox /> */}
-      <svg
+      {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         width="286"
         height="334"
@@ -27,8 +38,8 @@ const Home = () => {
           color="#8B5CF6"
         />
         <Checkmark />
-      </svg>
-    </div>
+      </svg> */}
+    </BaseContainer>
   )
 }
 
