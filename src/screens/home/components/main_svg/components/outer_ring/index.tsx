@@ -39,7 +39,6 @@ const OuterRing = () => {
         display="inline"
         style={{
           transformOrigin: 'center', // <- make it centre
-          transformBox: 'fill-box', // <- of the element
           ...style,
         }}
       >
