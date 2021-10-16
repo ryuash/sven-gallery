@@ -1,17 +1,26 @@
 import React from "react";
+import { OuterRing } from './components';
 
 const MainSvg = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      className="svg5"
       width="500"
       height="500"
       version="1.1"
       viewBox="0 0 132.292 132.292"
     >
-      <defs>
-        <marker orient="auto" overflow="visible" refX="0" refY="0">
+      <defs className="defs2">
+        <marker
+          className="Arrow1Lstart"
+          orient="auto"
+          overflow="visible"
+          refX="0"
+          refY="0"
+        >
           <path
+            className="path1165"
             fill="context-stroke"
             fillRule="evenodd"
             stroke="context-stroke"
@@ -20,59 +29,10 @@ const MainSvg = () => {
           ></path>
         </marker>
       </defs>
-      <g display="none" transform="translate(-.413 -.413)">
+      <OuterRing />
+      <g className="layer4" display="inline">
         <path
-          fill="#f2f2f2"
-          strokeWidth="0.234"
-          d="M0.413 0.413H132.705V132.705H0.413z"
-        ></path>
-      </g>
-      <g display="none">
-        <circle
-          cx="66.146"
-          cy="66.146"
-          r="42.5"
-          fill="#500"
-          strokeWidth="0.22"
-        ></circle>
-      </g>
-      <g display="inline">
-        <path
-          fill="#2b384a"
-          fillOpacity="1"
-          stroke="none"
-          strokeDasharray="0.791, 0.791"
-          strokeDashoffset="0"
-          strokeLinecap="round"
-          strokeLinejoin="bevel"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="0.791"
-          d="M250 97A153 153 0 0097 250a153 153 0 00153 153 153 153 0 00153-153A153 153 0 00250 97zm0 13a140 140 0 01140 140 140 140 0 01-140 140 140 140 0 01-140-140 140 140 0 01140-140z"
-          display="inline"
-          transform="scale(.26458)"
-        ></path>
-      </g>
-      <g display="inline">
-        <ellipse
-          cx="66.146"
-          cy="66.145"
-          fill="none"
-          fillOpacity="1"
-          stroke="#bfd9d0"
-          strokeDasharray="2.11666675,0.52916669"
-          strokeDashoffset="0.529"
-          strokeLinejoin="bevel"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="0.529"
-          display="inline"
-          rx="38.738"
-          ry="38.739"
-        ></ellipse>
-      </g>
-      <g display="inline">
-        <path
+          className="path321-8"
           fill="none"
           stroke="#ef8082"
           strokeDasharray="none"
@@ -83,8 +43,9 @@ const MainSvg = () => {
           display="inline"
         ></path>
       </g>
-      <g>
+      <g className="layer6">
         <path
+          className="path4131"
           fill="none"
           stroke="#d13261"
           strokeDasharray="none"
@@ -95,8 +56,9 @@ const MainSvg = () => {
           display="inline"
         ></path>
       </g>
-      <g>
+      <g className="layer7">
         <circle
+          className="path321-3"
           cx="66.146"
           cy="66.146"
           r="32.747"
