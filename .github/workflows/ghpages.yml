@@ -18,7 +18,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Build 🔧
       env:
-        NEXT_PUBLIC_BASE_PATH: https://ryuash.github.io/sven-gallery
+        NEXT_PUBLIC_BASE_PATH: '/sven-gallery'
       run: |
         npm ci
         npm run build
