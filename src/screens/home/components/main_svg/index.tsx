@@ -3,6 +3,7 @@ import {
   OuterRing,
   RingOne,
   RingTwo,
+  CenterText,
 } from './components';
 
 const MainSvg = () => {
@@ -35,6 +36,7 @@ const MainSvg = () => {
           ></path>
         </marker>
       </defs>
+      <CenterText />
       <OuterRing />
       <RingOne />
       <RingTwo />
