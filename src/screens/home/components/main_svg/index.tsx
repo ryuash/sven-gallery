@@ -1,4 +1,5 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 import {
   OuterRing,
   RingOne,
@@ -16,6 +17,17 @@ import {
 } from './components';
 
 const MainSvg = () => {
+  const style = useSpring({
+    from: {
+      transform: 'rotate(0deg)'
+    },
+    to: {
+      transform: 'rotate(360deg)'
+    },
+    reset: true,
+    config: { duration: 150000 },
+    loop: true,
+  });
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +57,12 @@ const MainSvg = () => {
           ></path>
         </marker>
       </defs>
-      <g>
+      <animated.g
+        style={{
+          transformOrigin: 'center', // <- make it centre
+          ...style,
+        }}
+      >
         <Pillars />
         <Mountains />
         <Dorm />
@@ -53,7 +70,7 @@ const MainSvg = () => {
         <Welcome />
         <Building />
         <Trees />
-      </g>
+      </animated.g>
       <BaseRing />
       <CenterText />
       <OuterRing />
