@@ -43,7 +43,9 @@ const MainSvg = () => {
       <RingOne />
       <RingTwo />
       <InnerRing />
-      <TreeOne />
+      <g>
+        <TreeOne />
+      </g>
     </svg>
   );
 }
