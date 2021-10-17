@@ -5,8 +5,14 @@ import {
   RingTwo,
   CenterText,
   InnerRing,
-  TreeOne,
   BaseRing,
+  Trees,
+  Pillars,
+  Mountains,
+  Dorm,
+  Pond,
+  Welcome,
+  Building,
 } from './components';
 
 const MainSvg = () => {
@@ -39,15 +45,21 @@ const MainSvg = () => {
           ></path>
         </marker>
       </defs>
+      <g>
+        <Pillars />
+        <Mountains />
+        <Dorm />
+        <Pond />
+        <Welcome />
+        <Building />
+        <Trees />
+      </g>
       <BaseRing />
       <CenterText />
       <OuterRing />
       <RingOne />
       <RingTwo />
       <InnerRing />
-      <g>
-        <TreeOne />
-      </g>
     </svg>
   );
 }

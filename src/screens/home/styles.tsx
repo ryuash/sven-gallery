@@ -17,4 +17,5 @@ export const SvgContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #f2f2f2;
 `;
