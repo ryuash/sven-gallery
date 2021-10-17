@@ -1,3 +1,4 @@
+import BaseRing from './base_ring';
 import OuterRing from './outer_ring';
 import RingOne from './ring_one';
 import RingTwo from './ring_two';
@@ -12,4 +13,5 @@ export {
   CenterText,
   TreeOne,
   InnerRing,
+  BaseRing,
 }

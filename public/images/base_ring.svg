@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500.00003"
+   height="500.00003"
+   viewBox="0 0 132.29168 132.29168"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1165" />
+    </marker>
+  </defs>
+  <g
+     id="layer10">
+    <ellipse
+       style="fill:#999999;stroke-width:0.214948"
+       id="path321-83"
+       cx="66.145844"
+       cy="66.145844"
+       rx="41.59581"
+       ry="41.595791" />
+    <ellipse
+       style="fill:#f2f2f2;stroke-width:0.214948"
+       id="path321-83-1"
+       cx="66.145844"
+       cy="66.145844"
+       rx="41.59594"
+       ry="41.595791" />
+  </g>
+</svg>
