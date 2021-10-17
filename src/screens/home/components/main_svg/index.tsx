@@ -4,6 +4,8 @@ import {
   RingOne,
   RingTwo,
   CenterText,
+  InnerRing,
+  TreeOne,
 } from './components';
 
 const MainSvg = () => {
@@ -40,21 +42,8 @@ const MainSvg = () => {
       <OuterRing />
       <RingOne />
       <RingTwo />
-      <g className="layer7">
-        <circle
-          className="path321-3"
-          cx="66.146"
-          cy="66.146"
-          r="32.747"
-          fill="none"
-          stroke="#168a94"
-          strokeDasharray="none"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="0.529"
-          display="inline"
-        ></circle>
-      </g>
+      <InnerRing />
+      <TreeOne />
     </svg>
   );
 }
