@@ -25,7 +25,7 @@ const MainSvg = () => {
       transform: 'rotate(360deg)'
     },
     reset: true,
-    config: { duration: 150000 },
+    config: { duration: 100000 },
     loop: true,
   });
   return (
