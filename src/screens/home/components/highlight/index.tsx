@@ -1,6 +1,7 @@
 import React from "react";
 import hljs from "highlight.js";
-import 'highlight.js/styles/tomorrow-night-blue.css';
+import 'highlight.js/styles/github-dark-dimmed.css';
+// import 'highlight.js/styles/tomorrow-night-blue.css';
 
 interface HighlighterProps {
   content: string;

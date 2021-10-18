@@ -16,5 +16,13 @@ a {
 }
 
 code {
+  white-space: break-spaces;
+  /* white-space: pre; */
+}
+
+pre {
+  overflow: scroll;
+  /* height: 500px; */
   white-space: pre;
+  height: 100%;
 }

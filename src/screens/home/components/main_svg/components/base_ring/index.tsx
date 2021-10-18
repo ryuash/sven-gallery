@@ -2,21 +2,16 @@ import React from "react";
 
 const BaseRing = () => {
   return (
-    <g strokeWidth="0.215">
-      <ellipse
+    <g>
+      <circle
         cx="66.146"
         cy="66.146"
-        fill="#999"
-        rx="41.596"
-        ry="41.596"
-      ></ellipse>
-      <ellipse
-        cx="66.146"
-        cy="66.146"
+        r="41.602"
         fill="#f2f2f2"
-        rx="41.596"
-        ry="41.596"
-      ></ellipse>
+        strokeDasharray="7.7181, 1.92952"
+        strokeDashoffset="1.93"
+        strokeWidth="1.93"
+      ></circle>
     </g>
   );
 }

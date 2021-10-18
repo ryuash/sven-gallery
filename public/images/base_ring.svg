@@ -7,38 +7,116 @@
    viewBox="0 0 132.29168 132.29168"
    version="1.1"
    id="svg5"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="base_ring.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#262626"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="1.5910723"
+     inkscape:cx="185.40955"
+     inkscape:cy="248.57451"
+     inkscape:window-width="1723"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer15"
+     inkscape:lockguides="true"
+     inkscape:snap-global="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true" />
   <defs
      id="defs2">
+    <rect
+       x="278.94859"
+       y="274.38813"
+       width="99.570206"
+       height="45.604675"
+       id="rect6455" />
     <marker
        style="overflow:visible"
        id="Arrow1Lstart"
        refX="0.0"
        refY="0.0"
-       orient="auto">
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
       <path
          transform="scale(0.8) translate(12.5,0)"
          style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1pt"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
          id="path1165" />
     </marker>
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="77.511031,40.140187"
+       end_point="77.511031,41.635186"
+       center_point="77.511031,40.887687"
+       id="path-effect4714"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="77.511031,40.140187"
+       end_point="77.511031,41.635186"
+       center_point="77.511031,40.887687"
+       id="path-effect5436"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="77.511031,40.140187"
+       end_point="77.511031,41.635186"
+       center_point="77.511031,40.887687"
+       id="path-effect7980"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
   </defs>
   <g
-     id="layer10">
-    <ellipse
-       style="fill:#999999;stroke-width:0.214948"
-       id="path321-83"
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="circle_base 1"
+     sodipodi:insensitive="true">
+    <circle
+       style="fill:#f2f2f2;stroke-width:1.92952;stroke-dasharray:7.7181, 1.92952;stroke-dashoffset:1.92952"
+       id="path7784-0"
        cx="66.145844"
        cy="66.145844"
-       rx="41.59581"
-       ry="41.595791" />
-    <ellipse
-       style="fill:#f2f2f2;stroke-width:0.214948"
-       id="path321-83-1"
-       cx="66.145844"
-       cy="66.145844"
-       rx="41.59594"
-       ry="41.595791" />
+       r="41.601501" />
   </g>
 </svg>

@@ -1,14 +1,11 @@
 import React from 'react';
 import Highlighter from '../highlight';
-
+import { content } from './utils';
 const Code = () => {
-
   return (
-    <div>
-      <Highlighter
-        content="<span>Hello World!</span>"
-      />
-    </div>
+    <Highlighter
+      content={content}
+    />
   )
 }
 
