@@ -1,16 +1,16 @@
-import React, {useEffect, useState} from 'react';
-import { MainSvg } from './components';
+import React from 'react';
+import { MainSvg, Code } from './components';
 import {
   BaseContainer,
   SvgContainer,
-  CodeContainer
+  CodeContainer,
 } from './styles';
 
 const Home = () => {
   return (
     <BaseContainer>
       <CodeContainer>
-        Code here
+        <Code />
       </CodeContainer>
       <SvgContainer>
         <MainSvg />

@@ -59,7 +59,7 @@ const MainSvg = () => {
       </defs>
       <animated.g
         style={{
-          transformOrigin: 'center', // <- make it centre
+          transformOrigin: 'center',
           ...style,
         }}
       >
