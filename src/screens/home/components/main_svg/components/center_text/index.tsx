@@ -6,7 +6,6 @@ const CenterText = () => {
   return (
     <g
       aria-label="SVEN ANDERS0N 2021"
-      style={{}}
       strokeWidth="0.171"
       fontFamily="Apple Braille"
       fontSize="6.839"

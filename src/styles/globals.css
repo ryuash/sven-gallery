@@ -21,7 +21,7 @@ code {
 }
 
 pre {
-  overflow: scroll;
+  overflow: hidden;
   /* height: 500px; */
   white-space: pre;
   height: 100%;

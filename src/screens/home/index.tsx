@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainSvg, Code } from './components';
+import { MainSvg, Highlight } from './components';
 import {
   BaseContainer,
   SvgContainer,
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <BaseContainer>
       <CodeContainer>
-        <Code />
+        <Highlight />
       </CodeContainer>
       <SvgContainer>
         <MainSvg />

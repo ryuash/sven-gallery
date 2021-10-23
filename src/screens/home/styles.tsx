@@ -7,12 +7,11 @@ export const BaseContainer = styled.div`
 `;
 
 export const CodeContainer = styled.div`
-  // background: #002451;
   min-width: 500px;
   max-width: 500px;
   padding: 1rem;
   background: #22272e;
-  overflow: auto;
+  overflow: hidden;
 `;
 
 export const SvgContainer = styled.div`

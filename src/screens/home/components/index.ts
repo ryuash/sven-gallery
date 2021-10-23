@@ -1,7 +1,7 @@
 import MainSvg from './main_svg';
-import Code from './code';
+import Highlight from './highlight';
 
 export {
   MainSvg,
-  Code,
+  Highlight,
 }
