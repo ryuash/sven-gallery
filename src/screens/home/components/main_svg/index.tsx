@@ -25,7 +25,7 @@ const MainSvg = () => {
       transform: 'rotate(360deg)'
     },
     reset: true,
-    config: { duration: 100000 },
+    config: { duration: 150000 },
     loop: true,
   });
   return (
@@ -60,7 +60,7 @@ const MainSvg = () => {
       <animated.g
         style={{
           transformOrigin: 'center',
-          ...style,
+          // ...style,
         }}
       >
         <Pillars />

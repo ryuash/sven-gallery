@@ -73,20 +73,6 @@ const Pillars = () => {
           strokeWidth="0.529"
           d="M67.898 54.406H73.451V58.274H67.898z"
         ></path>
-        <path
-          fill="#2a394a"
-          strokeDasharray="1.29731, 0.324329"
-          strokeDashoffset="0.324"
-          strokeWidth="0.324"
-          d="M68.972 51.458H72.375V53.829H68.972z"
-        ></path>
-        <path
-          fill="#e4fff7"
-          strokeDasharray="1.05977, 0.264944"
-          strokeDashoffset="0.265"
-          strokeWidth="0.265"
-          d="M69.284 51.675H72.06400000000001V53.611999999999995H69.284z"
-        ></path>
       </g>
       <g transform="scale(-1 1) rotate(-3.283 -12.995 2979.118)">
         <path
