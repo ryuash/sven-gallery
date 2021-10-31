@@ -10,7 +10,7 @@ const RingOne = () => {
       transform: 'rotate(360deg)'
     },
     reset: true,
-    config: { duration: 30000 },
+    config: { duration: 80000 },
     loop: true,
   });
 

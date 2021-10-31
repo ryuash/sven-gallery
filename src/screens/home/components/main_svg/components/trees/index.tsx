@@ -14,7 +14,7 @@ const Trees = () => {
             d="M248.006 81.467a.364.364 0 00-.365.365v10.99a157.213 157.212 0 012.359-.035 157.213 157.212 0 013.68.045v-11a.364.364 0 00-.366-.365z"
             transform="matrix(1.08565 0 0 1.08565 -205.982 -16.171)"
           ></path>
-          <BounceCss style={{animationDelay: '550ms'}}>
+          <BounceCss style={{animationDelay: '1550ms'}}>
             <path
               fill="#d03260"
               strokeDasharray="8, 2"
@@ -126,7 +126,7 @@ const Trees = () => {
             d="M248.006 81.467a.364.364 0 00-.365.365v10.99a157.213 157.212 0 012.359-.035 157.213 157.212 0 013.68.045v-11a.364.364 0 00-.366-.365z"
             transform="matrix(1.08565 0 0 1.08565 -205.982 -16.171)"
           ></path>
-          <BounceCss style={{animationDelay: '250ms'}}>
+          <BounceCss style={{animationDelay: '1250ms'}}>
           <path
             fill="#d03260"
             strokeDasharray="8, 2"
@@ -198,7 +198,7 @@ const Trees = () => {
             d="M261.898 86.691a.263.263 0 00-.29.23l-.723 6.245a157.213 157.212 0 014.306.357l.707-6.105a.261.261 0 00-.228-.291z"
             transform="rotate(-6.6 -283.844 3000.11) scale(1.51759)"
           ></path>
-          <BounceCss style={{animationDelay: '450ms'}}>
+          <BounceCss style={{animationDelay: '850ms'}}>
           <path
             fill="#ee8180"
             strokeDasharray="8, 2"

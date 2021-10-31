@@ -1,15 +1,36 @@
 import React from "react";
-
+import { useSpring, animated, config } from "react-spring";
 const Pond = () => {
+  const style = useSpring({
+    from: {
+      transform: 'rotate(0deg)'
+    },
+    to: {
+      transform: 'rotate(360deg)'
+    },
+    reset: true,
+    // config: { duration: 3500 },
+    config: {
+      mass: 1,
+      tension: 280,
+      friction: 180
+    },
+    loop: true,
+  });
   return (
     <g transform="rotate(97.983 53.65 81.835) scale(.4746)">
-      <path
+      <animated.path
+        style={{
+          transformOrigin: '76px 50px', // <- make it centre
+          // transformBox: 'fill-box', // <- of the element÷
+          ...style,
+        }}
         fill="#168a94"
         strokeDasharray="1.81342, 0.453352"
         strokeDashoffset="0.453"
         strokeWidth="0.453"
         d="M60.581 41.16a1.001 2.102 37.651 00-.707 1.822c-.476.18-1 .44-1.015.548-.026.189 1.333 1.237 1.51 1.165.104-.043.226-.657.278-1.175a1.001 2.102 37.651 001.52-1.138 1.001 2.102 37.651 00.49-2.275 1.001 2.102 37.651 00-2.076 1.052zm1.183-.568a.113.113 0 01.005-.007.113.113 0 01.158-.02.113.113 0 01.02.158.113.113 0 01-.158.02.113.113 0 01-.025-.151z"
-      ></path>
+      />
       <path
         fill="#d03260"
         strokeDasharray="8.00001, 2"

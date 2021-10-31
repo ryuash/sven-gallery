@@ -10,7 +10,7 @@ const RingTwo = () => {
       transform: 'rotate(-360deg)'
     },
     reset: true,
-    config: { duration: 10000 },
+    config: { duration: 60000 },
     loop: true,
   });
   return (
