@@ -60,7 +60,7 @@ const MainSvg = () => {
       <animated.g
         style={{
           transformOrigin: 'center',
-          // ...style,
+          ...style,
         }}
       >
         <Pillars />
