@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+code {
+  white-space: break-spaces;
+  /* white-space: pre; */
+}
+
+pre {
+  overflow: hidden;
+  /* height: 500px; */
+  white-space: pre;
+  height: 100%;
+}

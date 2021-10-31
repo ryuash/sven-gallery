@@ -1,11 +1,7 @@
-import Mailbox from './mailbox';
-import Hamburger from './hamburger';
-import Checkmark from './check';
-import ShieldPart from './shield';
+import MainSvg from './main_svg';
+import Highlight from './highlight';
 
 export {
-  Mailbox,
-  Hamburger,
-  Checkmark,
-  ShieldPart,
+  MainSvg,
+  Highlight,
 }
